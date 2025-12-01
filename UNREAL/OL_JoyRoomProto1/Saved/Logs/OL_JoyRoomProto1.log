@@ -3753,3 +3753,139 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.12.01-16.14.49:071][672]AssetCheck: /Game/UI/WB_SpecialAttack Validating asset
 [2025.12.01-16.14.49:071][672]AssetCheck: /Game/ImportedSprites/EYePoke Validating asset
 [2025.12.01-16.14.49:121][672]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../OLPROJECTS/COLAB3-GAMEPROTOTYPING-11112025-/UNREAL/OL_JoyRoomProto1/Saved/SourceControl/UncontrolledChangelists.json
+[2025.12.01-16.17.24:941][189]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4330.931641
+[2025.12.01-16.17.25:941][192]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.01-16.17.25:941][192]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4331.597168, Update Interval: 316.978058
+[2025.12.01-16.22.40:755][259]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.12.01-16.22.40:763][259]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.12.01-16.22.40:763][259]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2025.12.01-16.22.40:764][259]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 1.088 ms (total: 21.253 ms)
+[2025.12.01-16.22.40:796][259]LogFMOD: Display: Loaded bank lookup
+[2025.12.01-16.22.40:796][259]LogFMOD: Error: Failed to load asset lookup
+[2025.12.01-16.22.40:802][259]LogFMOD: Default sample rate = 48000
+[2025.12.01-16.22.40:802][259]LogFMOD: System sample rate = 48000
+[2025.12.01-16.22.40:802][259]LogFMOD: Matching system sample rate 48000
+[2025.12.01-16.22.40:802][259]LogFMOD: CallbackHandler not set.
+[2025.12.01-16.22.40:840][259]LogFMOD: Warning: Master bank (Master.bank) not found.
+[2025.12.01-16.22.40:876][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.01-16.22.40:876][259]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.12.01-16.22.40:886][259]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.12.01-16.22.40:888][259]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.243 ms (total: 51.988 ms)
+[2025.12.01-16.22.40:888][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012901s)
+[2025.12.01-16.22.40:888][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.012954s)
+[2025.12.01-16.22.40:923][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.12.01-16.22.40:924][259]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2025.12.01-16.22.40:926][259]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.12.01-16.22.40:926][259]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.12.01-16.22.40:926][259]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.12.01-16.22.40:926][259]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.12.01-16.22.40:928][259]LogWorldPartition: Display: WorldPartition initialize took 2.523 ms (total: 411.841 ms)
+[2025.12.01-16.22.40:928][259]LogPlayLevel: PIE: World Init took: (0.004874s)
+[2025.12.01-16.22.40:930][259]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2025.12.01-16.22.40:930][259]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.01-16.22.40:930][259]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.01-16.22.40:930][259]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.01-16.22.40:930][259]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.01-16.22.40:930][259]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.01-16.22.40:930][259]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.01-16.22.40:930][259]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.01-16.22.40:930][259]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.01-16.22.40:930][259]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.01-16.22.40:930][259]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.01-16.22.40:930][259]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.01-16.22.40:933][259]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.01-16.22.40:994][259]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2025.12.01-16.22.40:994][259]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.01-16.22.40:994][259]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.01-16.22.40:994][259]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.01-16.22.40:995][259]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2025.12.01-16.22.40:995][259]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2025.12.01-16.22.40:998][259]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2025.12.01-16.22.40:998][259]LogInit: FAudioDevice initialized with ID 23.
+[2025.12.01-16.22.40:998][259]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2025.12.01-16.22.40:998][259]LogAudio: Display: Audio Device (ID: 23) registered with world 'Lvl_FirstPerson'.
+[2025.12.01-16.22.40:998][259]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2025.12.01-16.22.41:003][259]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.12.01-16.22.41:011][259]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2025.12.01-16.22.41
+[2025.12.01-16.22.41:012][259]LogWorld: Bringing up level for play took: 0.008995
+[2025.12.01-16.22.41:015][259]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2025.12.01-16.22.41:020][259]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_UAID_80E82CE1F5D0B9A302_1212358185] PlayerStaminaSet
+[2025.12.01-16.22.41:020][259]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] PlayerStaminaSet
+[2025.12.01-16.22.41:022][259]PIE: Server logged in
+[2025.12.01-16.22.41:024][259]PIE: Play in editor total start time 0.261 seconds.
+[2025.12.01-16.22.41:075][260]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.12.01-16.22.41:914][274]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] AttackEnemyNeutral&Left
+[2025.12.01-16.22.43:230][321]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Blocking
+[2025.12.01-16.22.43:696][338]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] sTopped Blocking
+[2025.12.01-16.22.43:804][342]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Blocking
+[2025.12.01-16.22.44:442][365]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] sTopped Blocking
+[2025.12.01-16.22.45:050][387]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Blocking
+[2025.12.01-16.22.45:791][414]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] sTopped Blocking
+[2025.12.01-16.22.47:457][475]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] DodgedLeft
+[2025.12.01-16.22.47:592][480]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Blocking
+[2025.12.01-16.22.47:815][488]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] sTopped Blocking
+[2025.12.01-16.22.48:287][505]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] DodgedBack
+[2025.12.01-16.22.49:496][549]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] DodgedBack
+[2025.12.01-16.22.50:438][583]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] DodgeFailed!
+[2025.12.01-16.22.51:131][608]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] DodgeFailed!
+[2025.12.01-16.22.53:079][679]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Blocking
+[2025.12.01-16.22.53:405][691]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] sTopped Blocking
+[2025.12.01-16.22.54:248][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.01-16.22.54:248][715]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2025.12.01-16.22.54:248][715]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-16.22.54:250][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-16.22.54:250][715]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2025.12.01-16.22.54:252][715]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.01-16.22.54:258][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-16.22.54:294][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.01-16.22.54:294][715]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2025.12.01-16.22.54:294][715]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=4
+[2025.12.01-16.22.54:296][715]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23, StreamState=2
+[2025.12.01-16.22.54:306][715]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.12.01-16.22.54:382][716]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2025.12.01-16.23.04:547][132]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-16.23.04:547][132]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-16.23.04:556][132]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.12.01-16.23.04:556][132]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.01-16.23.04:623][132]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.12.01-16.23.32:826][320]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4698.823242
+[2025.12.01-16.23.33:826][323]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.01-16.23.33:827][323]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4699.491211, Update Interval: 348.387085
+[2025.12.01-16.30.13:230][521]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5099.229004
+[2025.12.01-16.30.14:229][524]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.01-16.30.14:229][524]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5099.895508, Update Interval: 315.818970
+[2025.12.01-16.31.20:420][  7]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.12.01-16.31.21:222][ 29]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Characters/BP_JOYMAN.BP_JOYMAN
+[2025.12.01-16.31.21:222][ 29]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.12.01-16.31.58:101][740]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2025.12.01-16.31.58:103][740]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Lvl_FirstPerson' took 0.065
+[2025.12.01-16.31.58:104][740]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Characters/BP_JOYMAN] ([2] browsable assets)...
+[2025.12.01-16.31.58:104][740]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.12.01-16.31.58:177][740]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Characters/BP_JOYMAN.BP_JOYMAN_C]
+[2025.12.01-16.31.58:186][740]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Characters/BP_JOYMAN.BP_JOYMAN]
+[2025.12.01-16.31.58:186][740]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/BP_JOYMAN]
+[2025.12.01-16.31.58:197][740]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/BP_JOYMAN_Auto5
+[2025.12.01-16.31.58:197][740]LogSavePackage: Moving '../../../../../../OLPROJECTS/COLAB3-GAMEPROTOTYPING-11112025-/UNREAL/OL_JoyRoomProto1/Saved/BP_JOYMAN_Auto5970752254671FD43D5070AB8226C9A33.tmp' to '../../../../../../OLPROJECTS/COLAB3-GAMEPROTOTYPING-11112025-/UNREAL/OL_JoyRoomProto1/Saved/Autosaves/Game/Characters/BP_JOYMAN_Auto5.uasset'
+[2025.12.01-16.31.58:198][740]LogFileHelpers: Auto-saving content packages took 0.096
+[2025.12.01-16.36.29:358][554]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5475.355469
+[2025.12.01-16.36.30:357][557]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.01-16.36.30:357][557]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5476.021973, Update Interval: 355.861694
+[2025.12.01-16.38.35:651][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2025.12.01-16.38.35:656][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.01-16.38.35:706][ 59]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/BP_JOYMAN] ([2] browsable assets)...
+[2025.12.01-16.38.35:706][ 59]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/BP_JOYMAN]
+[2025.12.01-16.38.35:706][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/BP_JOYMAN" FILE="../../../../../../OLPROJECTS/COLAB3-GAMEPROTOTYPING-11112025-/UNREAL/OL_JoyRoomProto1/Content/Characters/BP_JOYMAN.uasset" SILENT=true
+[2025.12.01-16.38.35:716][ 59]LogSavePackage: Moving output files for package: /Game/Characters/BP_JOYMAN
+[2025.12.01-16.38.35:718][ 59]LogSavePackage: Moving '../../../../../../OLPROJECTS/COLAB3-GAMEPROTOTYPING-11112025-/UNREAL/OL_JoyRoomProto1/Saved/BP_JOYMAN2651E04945096E059807CF9291AB7130.tmp' to '../../../../../../OLPROJECTS/COLAB3-GAMEPROTOTYPING-11112025-/UNREAL/OL_JoyRoomProto1/Content/Characters/BP_JOYMAN.uasset'
+[2025.12.01-16.38.35:732][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.337 ms (total: 326.335 ms)
+[2025.12.01-16.38.35:788][ 59]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.01-16.38.35:788][ 59]LogContentValidation: Enabled validators:
+[2025.12.01-16.38.35:788][ 59]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.01-16.38.35:788][ 59]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.01-16.38.35:788][ 59]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.01-16.38.35:788][ 59]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.01-16.38.35:789][ 59]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.01-16.38.35:789][ 59]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.01-16.38.35:789][ 59]AssetCheck: /Game/Characters/BP_JOYMAN Validating asset
